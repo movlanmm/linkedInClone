@@ -1,0 +1,35 @@
+.last-section {
+    width: 100%;
+    background-image: url(bgimage.png);
+    background-size: contain;
+    background-position: center;
+    height: 100dvh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+
+}
+
+.last-section .header {
+    margin-top: 70px;
+    width: 80%
+}
+
+.header p {
+    font-size: 56px;
+}
+
+.header button {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    padding: 13px 24px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.header button:hover {
+    background-color: rgb(6, 64, 122);
+}

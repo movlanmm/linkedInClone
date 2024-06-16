@@ -1,0 +1,62 @@
+.find-section{
+    width: 100%;
+    display: flex;
+    padding: 60px 0;
+}
+.find-section .left-side{
+    width: 65%;
+    background-color: #f3f2f0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.content{
+    width: 60%;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start
+}
+
+.content .sub-title{
+    font-size: 40px;
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+.content .head-title{
+    width: 100%;
+    font-size: 40px;
+}
+
+.content button{
+    width: 90%;
+    padding: 20px 25px;
+    margin-bottom: 10px;
+    background-color:#ede7db ;
+    border: none;
+    text-align: left;
+    position: relative;
+    cursor: pointer;
+}
+
+.content button i{
+    position: absolute;
+    right: 10px;
+
+}
+.content button:hover{
+    background-color: #cac5bd;
+}
+
+
+.find-section .image{
+    width: 70%;
+}
+
+.image img{
+    width: 100%;
+    margin-left: 86px;
+}

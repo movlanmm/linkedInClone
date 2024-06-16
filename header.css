@@ -1,0 +1,156 @@
+header {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .container {
+    width: 77%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form {
+    width: 60%;
+}
+
+.head-title {
+    font-size: 50px;
+    font-weight: 200;
+    width: 60%;
+    color: #b24020;
+    margin-bottom: 20px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.field label {
+    font-size: 14px;
+    color: #000000bf;
+    font-weight: bold;
+}
+
+.field input {
+    padding: 14px 16px;
+    margin-top: 8px;
+}
+
+.password-field {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+}
+
+.password-field label {
+    font-size: 14px;
+    color: #000000bf;
+    font-weight: bold;
+}
+
+.password-field input {
+    padding: 14px 16px;
+    margin-top: 5px;
+}
+
+.password-field button {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0a66c2;
+}
+
+.forgot {
+    margin-top: 10px;
+}
+
+.forgot a {
+    color: #0a66c2;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.signin-button button {
+    background-color: #0a66c2;
+    color: white;
+    width: 50%;
+    border-radius: 15px;
+    padding: 14px 16px;
+    border: none;
+    box-shadow: 0 0 5px lightgray;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.line-view-or {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.line {
+    width: 45%;
+    height: 1px;
+    background-color: lightgrey;
+}
+
+.privacy {
+    width: 45%;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.google-button {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.google-button button {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+}
+
+.google-button button i {
+    width: 18px;
+    margin-right: 3px;
+}
+
+.join-button {
+    width: 50%;
+}
+
+.join-button button {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.header-image {
+    width: 40%;
+    margin-top: 50px;
+}
+
+.header-image img {
+    width: 100%;
+}

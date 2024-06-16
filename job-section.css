@@ -1,0 +1,66 @@
+.job-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.job-section .container{
+    width: 77%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.job-title{
+    width: 50%;
+}
+
+.job-title p{
+    font-size: 48px;
+    color: #000000e6;
+}
+
+.search-side{
+    width: 50%;
+}
+
+.search-side p{
+    font-size: 16px;
+    color: #00000099;
+    margin-bottom: 15px;
+}
+
+.search-buttons ul li{
+    display: inline-block;
+    padding: 12px 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+.search-buttons ul li:hover{
+    background-color: rgb(233, 231, 231);
+}
+
+.search-buttons ul li a{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.show-more button{
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: transparent;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.show-more button:hover{
+    background-color: rgb(233, 231, 231);
+}
+
+.show-more button i{
+    margin-left: 3px;
+}

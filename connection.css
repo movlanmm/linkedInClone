@@ -1,0 +1,67 @@
+.connection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.connection .container{
+    width: 77%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.left{
+    width: 50%;
+}
+
+.left img{
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.left p{
+    font-size: 48px;
+    color: #000000e6;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.left button{
+    padding: 12px 22px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+
+}
+
+.left button:hover{
+    opacity: 0.6;
+}
+
+.right{
+    width: 50%;
+}
+
+.right img{
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.right p{
+    font-size: 48px;
+    color: #000000e6;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.right button{
+    padding: 15px 35px;
+    font-size: 20px;
+}
+
+.right button i{
+    margin-left: 10px;
+}

@@ -1,0 +1,60 @@
+.explore{
+    width: 100%;
+    background-color: #f3f2f0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 50px 0;
+}
+
+.explore .container{
+    width: 77%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.title-side{
+    width: 50%;
+}
+
+.title-side :first-child{
+    font-size: 48px;
+    color: #000000e6;
+}
+
+.title-side :last-child{
+    font-size: 20px;
+    color:#000000e6;
+    width: 88%;
+    margin-top: 12px;
+    line-height: -10px;
+}
+.buttons{
+   width: 50% !important ;
+}
+
+.buttons ul li:last-child{
+    border: 1px solid #0a66c2;
+}
+.buttons ul li:last-child a{
+    color:#0a66c2 ;
+}
+
+.buttons ul li:hover{
+    background-color: rgb(233, 231, 231);
+}
+
+.buttons ul li{
+    display: inline-block;
+    padding: 12px 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+.buttons ul li a{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}

@@ -1,0 +1,43 @@
+.post-section{
+    width: 100%;
+    background-color: #f1ece5;
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+}
+
+.post-section .container{
+    width: 77%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.post-title{
+    width: 40%;
+}
+.post-title p{
+    color: #b24020;
+    font-size: 40px;
+}
+
+.post-button{
+    width: 120px;
+    margin-left: 20px;
+}
+
+.post-button button{
+    background-color: transparent;
+    border: 1px solid #0a66c2;
+    color: #0a66c2;
+    padding: 13px 17px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.post-button button:hover{
+    background-color: rgb(205, 235, 255);
+}

@@ -1,0 +1,45 @@
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: #f3f2f0;
+}
+
+footer .main {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main .right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.general p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.general ul li {
+    line-height: 20px;
+}
+
+.general ul li:hover a {
+    text-decoration: underline;
+}
+
+.general ul li a {
+    color: #00000099;
+    font-size: 14px;
+}

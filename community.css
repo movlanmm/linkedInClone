@@ -1,0 +1,47 @@
+.community{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+    background-color: #f3f2f0;
+}
+
+.community .container{
+    width: 77%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.community .title{
+    width: 50%;
+}
+
+.title :first-child{
+    font-size: 40px;
+    color: #b24020;
+}
+
+.title :last-child{
+    font-size: 32px;
+    color: #000000e6;
+    line-height: -10px;
+    margin-top: 10px;
+}
+.community-image{
+    width: 45%
+}
+
+.community-image img{
+    width: 100%
+}
+
+.arrow-button button{
+    padding: 12px 13px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
